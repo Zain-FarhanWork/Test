@@ -37,7 +37,9 @@ do
         Change(bookIndex);
 
     }
-    Console.Writeline("Enter 'e' to exit");
+
+    Console.WriteLine("Press 1 to Exit - Press 2 to Continue");
+    repeat = Convert.ToInt32(Console.ReadLine());
 
 } while (repeat == 1);
 
