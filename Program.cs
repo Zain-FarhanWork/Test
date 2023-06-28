@@ -37,7 +37,7 @@ do
         Change(bookIndex);
 
     }
-
+    Console.Writeline("Enter 'e' to exit");
 
 } while (repeat == 1);
 
