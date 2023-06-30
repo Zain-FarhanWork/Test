@@ -44,7 +44,7 @@ do
 
     do
     {
-        Console.WriteLine("Press 1 to Exit - Press 2 to Continue");
+        Console.WriteLine("Press 1 to Continue - Press 2 to Exit");
         repeat = Convert.ToInt32(Console.ReadLine());
     }
     while (repeat < 1 || repeat > 2);  
