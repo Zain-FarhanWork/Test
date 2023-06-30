@@ -38,8 +38,14 @@ do
 
     }
 
-    Console.WriteLine("Press 1 to Exit - Press 2 to Continue");
-    repeat = Convert.ToInt32(Console.ReadLine());
+    do
+    {
+        Console.WriteLine("Press 1 to Exit - Press 2 to Continue");
+        repeat = Convert.ToInt32(Console.ReadLine());
+    }
+    while (repeat < 1 || repeat > 2);  
+
+    
 
 } while (repeat == 1);
 
