@@ -16,12 +16,13 @@ do
 {
     
 
-do
-{
-    Console.WriteLine("Press 1 to view Book | Press 2 to Set Book");
-    choice = Convert.ToInt32(Console.ReadLine());
+    do
+    {
+        Console.WriteLine("Press 1 to view Book | Press 2 to Set Book");
+        choice = Convert.ToInt32(Console.ReadLine());
 
-} while (choice != 1 || choice != 2);
+    } 
+    while (choice > 2 || choice < 1);
 
     if (choice == 1)
     {
